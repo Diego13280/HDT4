@@ -1,9 +1,8 @@
 /**
- * Diego Juarez 13
+ * Diego Juarez 13280
  * Daniel Mejia 13271
  */
 import java.util.ArrayList;
-
 public class StackArrayList<E>
  implements Stack<E>
 {

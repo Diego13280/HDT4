@@ -1,10 +1,9 @@
 /**
- * Diego Juarez 13
+ * Diego Juarez 13280
  * Daniel Mejia 13271
  */
 public interface Stack<E> 
 {
-
    public void push(E item);
    // pre: 
    // post: item is added to stack
