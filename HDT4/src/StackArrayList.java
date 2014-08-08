@@ -1,12 +1,10 @@
-/**
- * Diego Juarez 13280
- * Daniel Mejia 13271
- */
 import java.util.ArrayList;
-public class StackArrayList<E>
- implements Stack<E>
-{
-	protected ArrayList<E> data;
+
+
+public class StackArrayList<E> extends AbstractStack<E> {
+    
+    
+    protected ArrayList<E> data;
 
 	public StackArrayList()
 	// post: constructs a new, empty stack
@@ -40,10 +38,10 @@ public class StackArrayList<E>
 	{
 		return data.size();
 	}
-  
-	public boolean empty()
-	// post: returns true if and only if the stack is empty
-	{
-		return size() == 0;
-	}
+
+    @Override
+    public boolean empty() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
 }
