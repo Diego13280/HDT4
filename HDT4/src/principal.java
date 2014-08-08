@@ -73,12 +73,7 @@ public class principal {
                        variableOperadora = variableuno / variableDos;
                        calculos.push(variableOperadora); 
                   } 
-                  // System.out.println ("Letra: "+letra);
-                  // System.out.println ("ListaUsuario: "+ListaUsuario);
-                  // System.out.println ("variable momentanea: "+variableMomentanea);
-                  // System.out.println ("variable uno: "+variableuno);
-                  // System.out.println ("variable dos: "+variableDos);
-                 // System.out.println ("variable operadora: "+variableOperadora);
+               
                     Contador ++;
                }
                 System.out.println("el resultado del calculo es: "+ variableOperadora);
